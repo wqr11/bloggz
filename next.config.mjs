@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  rewrites: async () => {
+    return [];
+  },
+};
 
 export default nextConfig;
